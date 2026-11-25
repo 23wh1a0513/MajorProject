@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "backend": "python -m backend.app",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "python -m unittest discover -s backend/tests"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

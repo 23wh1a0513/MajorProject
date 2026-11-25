@@ -1,0 +1,31 @@
+{
+  "trainingRecords": 4000,
+  "validationRecords": 1000,
+  "targetDefinition": "resource consumption for the same workload record",
+  "cpu": {
+    "mae": 12.783,
+    "rmse": 15.7744,
+    "r2": 0.5269,
+    "mape": 37.7659
+  },
+  "memory": {
+    "mae": 0.1796,
+    "rmse": 0.2331,
+    "r2": 0.987,
+    "mape": 4.3348
+  },
+  "meanBaseline": {
+    "cpu": {
+      "mae": 19.9259,
+      "rmse": 22.9347,
+      "r2": -0.0001,
+      "mape": 63.5586
+    },
+    "memory": {
+      "mae": 1.7575,
+      "rmse": 2.043,
+      "r2": -0.0018,
+      "mape": 73.7404
+    }
+  }
+}

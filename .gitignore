@@ -1,6 +1,11 @@
 node_modules/
 dist/
 .vite/
+data/
+backend/orchestrator.db
+backend/models/
+__pycache__/
+*.py[cod]
 
 .env
 .env.*

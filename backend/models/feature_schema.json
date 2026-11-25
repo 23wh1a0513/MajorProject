@@ -1,0 +1,52 @@
+{
+  "categories": {
+    "dataSource": [
+      "Cloud",
+      "Enterprise DB",
+      "IoT",
+      "Social Media"
+    ],
+    "taskType": [
+      "Cloud Service",
+      "Data Processing",
+      "Database",
+      "Web/Network"
+    ]
+  },
+  "numericRanges": {
+    "activeUsers": [
+      53.0,
+      4998.0
+    ],
+    "processCount": [
+      1.0,
+      38.0
+    ],
+    "vmCpuCores": [
+      2.0,
+      16.0
+    ],
+    "cpuSpeedGHz": [
+      2.2,
+      3.5
+    ],
+    "vmMemoryGb": [
+      4.0,
+      32.0
+    ],
+    "memoryRequestedGb": [
+      0.5224609375,
+      9.6943359375
+    ]
+  },
+  "targetRanges": {
+    "cpu": [
+      10.0,
+      89.98
+    ],
+    "memory": [
+      0.490234375,
+      7.810546875
+    ]
+  }
+}
